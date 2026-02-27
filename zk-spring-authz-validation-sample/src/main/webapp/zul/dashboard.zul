@@ -1,0 +1,18 @@
+<?page title="Authorization Dashboard" contentType="text/html;charset=UTF-8"?>
+<zk xmlns="http://www.zkoss.org/2005/zul">
+  <window title="Authorization Dashboard" border="normal" width="600px"
+          apply="com.example.authzsample.zk.DashboardComposer">
+    <vlayout spacing="12px" style="padding:16px;">
+      <label value="Dashboard Loaded" sclass="dashboard-ready"/>
+      <label value="Login users: alice/password and bob/password"/>
+      <separator/>
+
+      <button id="createPaymentBtn" sclass="create-payment" label="Create Payment"/>
+      <label value="(If you are bob, the button should be hidden)"/>
+      <separator/>
+
+      <!-- Reliable logout (GET) -->
+      <a id="logoutBtn" href="/logout" label="Logout"/>
+    </vlayout>
+  </window>
+</zk>
