@@ -44,6 +44,9 @@ Example for 20 ports:
 atm.listeners.ports=9101,9102,9103,9104,9105,9106,9107,9108,9109,9110,9111,9112,9113,9114,9115,9116,9117,9118,9119,9120
 ```
 
+## Confihure jMetere: [JMeterConfiguration-README.md](JMeterConfiguration-README.md)
+
+
 ## Quick TCP Manual Test
 
 ### Linux/macOS
